@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>20</width>
+    <height>20</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(0, 0, 128);
+
+background-color: rgb(245, 245, 220);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>50</y>
+      <width>331</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>1561</width>
+      <height>15156</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>94</x>
+      <y>50</y>
+      <width>591</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>35</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(245, 245, 220)
+;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <property name="midLineWidth">
+     <number>3</number>
+    </property>
+    <property name="text">
+     <string>BIBLIOTHÈQUE</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>240</y>
+      <width>231</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(245, 245, 220);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>:/isimm/download (1).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>741</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="ajouter_etudiant">
+     <widget class="QStackedWidget" name="stackedWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>110</y>
+        <width>681</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <widget class="QWidget" name="page_2">
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>-10</y>
+          <width>171</width>
+          <height>151</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Myanmar Text</family>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Entrer les cordoonnées</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>50</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>80</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>80</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Prénom</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>110</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>110</y>
+          <width>131</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Date de naissance</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>140</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_5">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>170</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>200</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_7">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>230</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_8">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>260</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>20</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>N° inscription</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>50</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Nom</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>140</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Adresse</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>170</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Mail</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>200</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Télephone</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>230</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Section</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>260</y>
+          <width>121</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Niveau d'étude</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_9">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>20</y>
+          <width>141</width>
+          <height>21</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3"/>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(211, 211, 211);</string>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menuMenu_tudiants">
+    <property name="font">
+     <font>
+      <underline>false</underline>
+     </font>
+    </property>
+    <property name="tearOffEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>Menu étudiants</string>
+    </property>
+    <property name="toolTipsVisible">
+     <bool>false</bool>
+    </property>
+    <widget class="QMenu" name="menuMise_jour">
+     <property name="title">
+      <string>Mise à jour</string>
+     </property>
+     <widget class="QMenu" name="menuSupprimer_tudiants">
+      <property name="title">
+       <string>Supprimer étudiants</string>
+      </property>
+      <addaction name="actionSuppression_tudiant_donn_e"/>
+      <addaction name="separator"/>
+      <addaction name="actionSupression_des_tudiants_d_une_section_donn_e"/>
+      <addaction name="separator"/>
+      <addaction name="actionSupression_des_tudiants_d_un_niveau_donn_e"/>
+      <addaction name="separator"/>
+      <addaction name="actionSuppression_des_tudiants_d_une_section_et_un_niveau"/>
+     </widget>
+     <widget class="QMenu" name="menuModifier_tudiant">
+      <property name="title">
+       <string>Modifier étudiant</string>
+      </property>
+      <addaction name="actionT_lephone"/>
+      <addaction name="separator"/>
+      <addaction name="actionMail"/>
+      <addaction name="separator"/>
+      <addaction name="actionAdresse"/>
+     </widget>
+     <addaction name="actionAjouter_tudiant"/>
+     <addaction name="separator"/>
+     <addaction name="menuSupprimer_tudiants"/>
+     <addaction name="separator"/>
+     <addaction name="menuModifier_tudiant"/>
+    </widget>
+    <widget class="QMenu" name="menuRecherche">
+     <property name="title">
+      <string>Recherche</string>
+     </property>
+     <addaction name="actionContenu_de_dictionnaire_tudiants"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_par_num_ro_inscription"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_par_section"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_par_section_et_niveau"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_par_niveau"/>
+    </widget>
+    <addaction name="menuMise_jour"/>
+    <addaction name="separator"/>
+    <addaction name="menuRecherche"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_livres">
+    <property name="title">
+     <string>Menu livres</string>
+    </property>
+    <widget class="QMenu" name="menuMise_jour_2">
+     <property name="title">
+      <string>Mise à jour</string>
+     </property>
+     <widget class="QMenu" name="menuSupprimer_un_livre">
+      <property name="title">
+       <string>Supprimer un livre</string>
+      </property>
+      <addaction name="actionSuppression_livre_donn"/>
+      <addaction name="separator"/>
+      <addaction name="actionSuppression_livre_d_un_auteur_donn"/>
+      <addaction name="separator"/>
+      <addaction name="actionSuppression_livre_d_une_ann_e_donn_e"/>
+     </widget>
+     <addaction name="actionAjouter_un_nouvel_livre"/>
+     <addaction name="separator"/>
+     <addaction name="menuSupprimer_un_livre"/>
+     <addaction name="separator"/>
+     <addaction name="actionModifier_nombre_d_exemplaires_d_un_livre"/>
+    </widget>
+    <widget class="QMenu" name="menuRecherche_2">
+     <property name="title">
+      <string>Recherche</string>
+     </property>
+     <addaction name="actionContenu_du_dictionnaire_livre"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_par_r_ference"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_par_titre"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_livres_par_ann_e_dition_donn_e"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_livres_d_un_auteur_donn"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_et_affichage_des_livres_par_ordre_alphab_tique"/>
+    </widget>
+    <addaction name="menuMise_jour_2"/>
+    <addaction name="separator"/>
+    <addaction name="menuRecherche_2"/>
+   </widget>
+   <widget class="QMenu" name="menuGestion_des_emprunts">
+    <property name="title">
+     <string>Gestion des emprunts</string>
+    </property>
+    <widget class="QMenu" name="menuMise_jour_3">
+     <property name="title">
+      <string>Mise à jour</string>
+     </property>
+     <widget class="QMenu" name="menuModifier_emprunt">
+      <property name="title">
+       <string>Modifier emprunt</string>
+      </property>
+      <addaction name="actionDate_emprunt"/>
+      <addaction name="separator"/>
+      <addaction name="actionDate_retour"/>
+     </widget>
+     <addaction name="actionAjouter_un_nouvel_emprunt"/>
+     <addaction name="separator"/>
+     <addaction name="actionRetour_d_un_emprunt"/>
+     <addaction name="separator"/>
+     <addaction name="actionSupprimer_d_un_emprunt"/>
+     <addaction name="separator"/>
+     <addaction name="menuModifier_emprunt"/>
+    </widget>
+    <widget class="QMenu" name="menuRecherche_3">
+     <property name="title">
+      <string>Recherche</string>
+     </property>
+     <addaction name="actionContenu_du_dictionnaire_emprunt"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_emprunts_par_livre"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_emprunts_par_tuduant"/>
+     <addaction name="separator"/>
+     <addaction name="action_Recherche_Livres_emprunt_s_une_date_donn_e"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_Livres_retourn_s_une_date_donn_e"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_Livres_emprunt_s_entre_2_dates_donn_es"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche_livres_retourn_s_entre_2_dates_donn_es"/>
+    </widget>
+    <addaction name="menuMise_jour_3"/>
+    <addaction name="separator"/>
+    <addaction name="menuRecherche_3"/>
+   </widget>
+   <addaction name="menuMenu_tudiants"/>
+   <addaction name="menuMenu_livres"/>
+   <addaction name="menuGestion_des_emprunts"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAffichage">
+   <property name="text">
+    <string>Affichage</string>
+   </property>
+  </action>
+  <action name="actionAjouter_tudiant">
+   <property name="text">
+    <string>Ajouter étudiant</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSuppression_tudiant_donn_e">
+   <property name="text">
+    <string>Suppression étudiant donnée</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSupression_des_tudiants_d_une_section_donn_e">
+   <property name="text">
+    <string>Supression des étudiants d'une section donnée</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSupression_des_tudiants_d_un_niveau_donn_e">
+   <property name="text">
+    <string>Supression des étudiants d'un niveau donnée</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSuppression_des_tudiants_d_une_section_et_un_niveau">
+   <property name="text">
+    <string>Suppression des étudiants d'une section et un niveau</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionT_lephone">
+   <property name="text">
+    <string>Télephone</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionMail">
+   <property name="text">
+    <string>Mail</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionAdresse">
+   <property name="text">
+    <string>Adresse</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionContenu_de_dictionnaire_tudiants">
+   <property name="text">
+    <string>Contenu de dictionnaire étudiants</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_par_num_ro_inscription">
+   <property name="text">
+    <string>Recherche par numéro inscription</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+I</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section">
+   <property name="text">
+    <string>Recherche par section</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section_et_niveau">
+   <property name="text">
+    <string>Recherche par section et niveau</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_par_niveau">
+   <property name="text">
+    <string>Recherche par niveau</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionAffichage_2">
+   <property name="text">
+    <string>Affichage</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_nouvel_livre">
+   <property name="text">
+    <string>Ajouter un nouvel livre</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionModifier_nombre_d_exemplaires_d_un_livre">
+   <property name="text">
+    <string>Modifier nombre d'exemplaires d'un livre</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSuppression_livre_donn">
+   <property name="text">
+    <string>Suppression livre donné</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+D</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSuppression_livre_d_un_auteur_donn">
+   <property name="text">
+    <string>Suppression livre d'un auteur donné</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSuppression_livre_d_une_ann_e_donn_e">
+   <property name="text">
+    <string>Suppression livre d'une année donnée</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionContenu_du_dictionnaire_livre">
+   <property name="text">
+    <string>Contenu du dictionnaire livre</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_par_r_ference">
+   <property name="text">
+    <string>Recherche par réference</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_par_titre">
+   <property name="text">
+    <string>Recherche par titre</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+T</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_livres_par_ann_e_dition_donn_e">
+   <property name="text">
+    <string>Recherche livres par année édition donnée</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_livres_d_un_auteur_donn">
+   <property name="text">
+    <string>Recherche livres d'un auteur donné</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+U</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_et_affichage_des_livres_par_ordre_alphab_tique">
+   <property name="text">
+    <string>Recherche et affichage des livres par ordre alphabétique</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionAjouter_un_nouvel_emprunt">
+   <property name="text">
+    <string>Ajouter un nouvel emprunt</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+A</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRetour_d_un_emprunt">
+   <property name="text">
+    <string>Retour d'un emprunt</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionSupprimer_d_un_emprunt">
+   <property name="text">
+    <string>Supprimer d'un emprunt</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionDate_emprunt">
+   <property name="text">
+    <string>Date emprunt</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionDate_retour">
+   <property name="text">
+    <string>Date retour</string>
+   </property>
+   <property name="shortcut">
+    <string notr="true">Ctrl+R</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionContenu_du_dictionnaire_emprunt">
+   <property name="text">
+    <string>Contenu du dictionnaire emprunt</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_emprunts_par_livre">
+   <property name="text">
+    <string>Recherche emprunts par livre</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_emprunts_par_tuduant">
+   <property name="text">
+    <string>Recherche emprunts par étudiant</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="action_Recherche_Livres_emprunt_s_une_date_donn_e">
+   <property name="text">
+    <string>Recherche Livres empruntés à une date donnée</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+E</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_Livres_retourn_s_une_date_donn_e">
+   <property name="text">
+    <string>Recherche Livres retournés à une date donnée</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_Livres_emprunt_s_entre_2_dates_donn_es">
+   <property name="text">
+    <string>Recherche Livres empruntés entre 2 dates données</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+G</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionRecherche_livres_retourn_s_entre_2_dates_donn_es">
+   <property name="text">
+    <string>Recherche livres retournés entre 2 dates données</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>true</bool>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="backroundmain.qrc"/>
+ </resources>
+ <connections/>
+</ui>

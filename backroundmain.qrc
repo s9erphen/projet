@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="isimm">
+    <file>download (1).png</file>
+    <file>download.jpg</file>
+  </qresource>
+</RCC>
